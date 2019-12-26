@@ -1,0 +1,55 @@
+body{
+  font-family:"Raleway", sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* content */
+
+#sector-section{
+margin-top: 10rem;
+}
+
+#sector-section h1{
+margin: 2rem 0 5rem 0;
+text-align: center;
+color:#191970;
+letter-spacing: 0.2rem;
+word-spacing: 0.5rem;
+font-weight: 800;
+text-decoration: underline;
+}
+
+ul{
+padding-left: 0;
+line-height: 3rem;
+}
+
+#sector-section li{
+list-style-type: none;
+text-align: center;
+}
+
+#sector-section li a{
+color:#191970;
+font-size:1.5rem;
+}
+
+#sector-section li a:hover{
+font-size: 1.6rem;
+color:#000;
+}
+
+.sector-letter{
+background-color: #191970;
+border-radius: 5px;
+padding: 0.5rem;
+color: #fff;
+display: block;
+font-size: 1.5rem;
+font-weight: 800;
+line-height:1.5rem;
+width: 35px;
+text-align: center;
+margin:0 auto;
+}

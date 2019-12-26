@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="Author name">
+<meta name="copyright" content="299 Recruitment Agency">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<!-- css -->
+<link rel="stylesheet" href="vacancies-style.css" type="text/css" />
+<link rel="stylesheet" href="common.css" type="text/css" />
+<!-- google fonts -->
+<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+
+<link rel="icon" href="favicon.ico" type=image/x-icon>
+<title>299| Vacancies</title>
+
+</head>
+
+
+<body>
+
+  <!-- navigation menu -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+  <a class="navbar-brand" href="index.html">299</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigationBarToggle" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span></button>
+  <div class="collapse navbar-collapse" id="navigationBarToggle">
+  <ul class="navbar-nav">
+  <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  JobSeekers
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+  <a class="dropdown-item" href="vacancies.html">Vacancies</a>
+  <a class="dropdown-item" href="job-sectors.html">All job sectors</a>
+  </div>
+  </li>
+  <li class="nav-item"><a class="nav-link" href="employers.html">Employers</a></li>
+  <li class="nav-item"><a class="nav-link" href="company.html">Company</a></li>
+  <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+  </ul>
+  <form class="form-inline my-2 my-lg-0 ml-auto">
+  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+  <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+  </div>  <!-- collapse navbar -->
+  </nav>
+
+
+<!-- Title -->
+
+<header>
+<h1 class="title">Available Vacancies</h1>
+</header>
+
+<!-- content with 2 cols -->
+<div class="container">
+<div class="row content-row">
+<div class="col-lg-3 job-search-filters">
+<form>
+<input class="job-search-keywords mr-sm-2" type="search" placeholder="type job keywords" aria-label="Search">
+<label class="industry-filter">Filter by Industry</label><br>
+<select class="industry">
+<option value="industry-select">we</option>
+<option value="industry-select">still </option>
+<option value="industry-select">need to </option>
+<option value="industry-select">check </option>
+<option value="industry-select">our industries</option>
+</select><br>
+
+<label class="job-type-filter">Search by Job Type : </label><br>
+<input class="job-type-filter-check" type="checkbox" name="job-type" value="f/t"> Full-Time<br>
+<input class="job-type-filter-check" type="checkbox" name="job-type" value="p/t" checked> Part-time<br>
+<input class="job-type-filter-check" type="checkbox" name="job-type" value="reduced" checked>Reduced hours<br>
+<input class="job-type-filter-check" type="checkbox" name="job-type" value="shift/flexible">Shift/Flexible hours<br>
+<input class="job-type-filter-check" type="checkbox" name="job-type" value="temp">Temporary<br>
+
+<label class="locality-filter">Preferred locality</label><br>
+<select class="locality-options">
+<option value="locality">Job Locality</option>
+<option value="any-location">Any Locality</option>
+<option value="gozo">Gozo</option>
+<option value="attard">Attard</option>
+<option value="balzan">Balzan</option>
+<option value="birkirkara">Birkirkara</option>
+<option value="birzebbugia">Birzebbugia</option>
+<option value="birgu">Birgu</option>
+<option value="bormla">Cospicua(Bormla)</option>
+<option value="dingli">Dingli</option>
+<option value="fgura">Fgura</option>
+<option value="floriana">Floriana</option>
+<option value="gharghur">Gharghur</option>
+<option value="gudja">Gudja</option>
+<option value="gzira">Gzira</option>
+<option value="ghaxaq">Ghaxaq</option>
+<option value="hamrun">Hamrun</option>
+<option value="iklin">Iklin</option>
+<option value="imqabba">Imqabba</option>
+<option value="imsida">Imsida</option>
+<option value="kalkara">Kalkara</option>
+<option value="kirkop">Kirkop</option>
+<option value="lija">Lija</option>
+<option value="luqa">Luqa</option>
+<option value="manikata">Manikata</option>
+<option value="marsa">Marsa</option>
+<option value="marsaskala">Marsaskala</option>
+<option value="marsaxlokk">Marsaxlokk</option>
+<option value="mdina">Mdina</option>
+<option value="mellieha">Mellieha</option>
+<option value="mgarr">Mgarr</option>
+<option value="mosta">Mosta</option>
+<option value="mtarfa">Mtarfa</option>
+<option value="naxxar">Naxxar</option>
+<option value="paola">Paola</option>
+<option value="pembroke">Pembroke</option>
+<option value="pieta">Pieta</option>
+<option value="qawra">Qawra</option>
+<option value="qrendi">Qrendi</option>
+<option value="qormi">Qormi</option>
+<option value="rabat">Rabat</option>
+<option value="safi">Safi</option>
+<option value="san gwann">San Gwann</option>
+<option value="santa lucija">Santa Lucija</option>
+<option value="santa venera">Santa Venera</option>
+<option value="senglea">Senglea</option>
+<option value="siggiewi">Siggiewi</option>
+<option value="sliema">Sliema</option>
+<option value="smart city">Smart City</option>
+<option value="st julians">St.Julians/Paceville</option>
+<option value="st paul">St.Paul's Bay</option>
+<option value="swieqi">Swieqi</option>
+<option value="tarxien">Tarxien</option>
+<option value="ta' qali">Ta' Qali</option>
+<option value="ta' xbiex">Ta' Xbiex</option>
+<option value="valletta">Valletta</option>
+<option value="zabbar">Zabbar</option>
+<option value="zejtun">Zejtun</option>
+<option value="zebbug">Zebbug</option>
+<option value="zurrieq">Zurrieq</option>
+</select>
+<br>
+<input class="filters-submit-btn" name="filters-submit filters" type="submit" value="Apply Filters"/>
+</form>
+</div> <!-- job search filters-->
+
+<div class="col-lg-9 vacancies-col">
+
+<div class="vacancy"><h3>Security Officers</h3>
+<p>We are looking to employ Security officers who already have the license for our new shopping mall in Sliema</p>
+<span class="v-location">Locality: Sliema</span> <span class="v-type">Shift Basis</span>  <button class="read-more-btn" href="#">Read more</button>
+</div> <!--vacancy-->
+
+<div class="vacancy"><h3>Chef De Partie</h3>
+<p>We are looking for a reliable and experienced chef in Italian cuisine for our restaurant. Must have minimum 2 years experience.</p>
+<span class="v-location">Locality: Bugibba</span> <span class="v-type">Full-Time</span>  <button class="read-more-btn" href="#">Read more</button>
+</div> <!--vacancy-->
+
+<div class="vacancy"><h3>Security Officers</h3>
+<p>We are looking to employ Security officers who already have the license for our new shopping mall in Sliema</p>
+<span class="v-location">Locality: Sliema</span> <span class="v-type">Shift Basis</span>  <button class="read-more-btn" href="#">Read more</button>
+</div> <!--vacancy-->
+
+<div class="vacancy"><h3>Security Officers</h3>
+<p>We are looking to employ Security officers who already have the license for our new shopping mall in Sliema</p>
+<span class="v-location">Locality: Sliema</span> <span class="v-type">Shift Basis</span>  <button class="read-more-btn" href="#">Read more</button>
+</div> <!--vacancy-->
+
+<div class="vacancy"><h3>Security Officers</h3>
+<p>We are looking to employ Security officers who already have the license for our new shopping mall in Sliema</p>
+<span class="v-location">Locality: Sliema</span> <span class="v-type">Shift Basis</span>  <button class="read-more-btn" href="#">Read more</button>
+</div> <!--vacancy-->
+
+<div class="vacancy"><h3>Security Officers</h3>
+<p>We are looking to employ Security officers who already have the license for our new shopping mall in Sliema</p>
+<span class="v-location">Locality: Sliema</span> <span class="v-type">Shift Basis</span>  <button class="read-more-btn" href="#">Read more</button>
+</div> <!--vacancy-->
+
+<div class="vacancy"><h3>Security Officers</h3>
+<p>We are looking to employ Security officers who already have the license for our new shopping mall in Sliema</p>
+<span class="v-location">Locality: Sliema</span> <span class="v-type">Shift Basis</span>  <button class="read-more-btn" href="#">Read more</button>
+</div> <!--vacancy-->
+
+<div class="vacancy"><h3>Security Officers</h3>
+<p>We are looking to employ Security officers who already have the license for our new shopping mall in Sliema</p>
+<span class="v-location">Locality: Sliema</span> <span class="v-type">Shift Basis</span>  <button class="read-more-btn" href="#">Read more</button>
+</div> <!--vacancy-->
+
+<div class="vacancy"><h3>Security Officers</h3>
+<p>We are looking to employ Security officers who already have the license for our new shopping mall in Sliema</p>
+<span class="v-location">Locality: Sliema</span> <span class="v-type">Shift Basis</span>  <button class="read-more-btn" href="#">Read more</button>
+</div> <!--vacancy-->
+
+<div class="vacancy"><h3>Security Officers</h3>
+<p>We are looking to employ Security officers who already have the license for our new shopping mall in Sliema</p>
+<span class="v-location">Locality: Sliema</span> <span class="v-type">Shift Basis</span>  <button class="read-more-btn" href="#">Read more</button>
+</div> <!--vacancy-->
+
+<div class="vacancy"><h3>Security Officers</h3>
+<p>We are looking to employ Security officers who already have the license for our new shopping mall in Sliema</p>
+<span class="v-location">Locality: Sliema</span> <span class="v-type">Shift Basis</span>  <button class="read-more-btn" href="#">Read more</button>
+</div> <!--vacancy-->
+
+<div class="vacancy"><h3>Security Officers</h3>
+<p>We are looking to employ Security officers who already have the license for our new shopping mall in Sliema</p>
+<span class="v-location">Locality: Sliema</span> <span class="v-type">Shift Basis</span>  <button class="read-more-btn" href="#">Read more</button>
+</div> <!--vacancy-->
+
+<div class="vacancy"><h3>Security Officers</h3>
+<p>We are looking to employ Security officers who already have the license for our new shopping mall in Sliema</p>
+<span class="v-location">Locality: Sliema</span> <span class="v-type">Shift Basis</span>  <button class="read-more-btn" href="#">Read more</button>
+</div> <!--vacancy-->
+
+</div> <!-- vacancies col-->
+
+</div>  <!--content row-->
+</div> <!-- container-->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/bb6dc6753d.js" crossorigin="anonymous"></script>
+
+</body>
+
+
+<footer>
+<div class="footer-content">
+<div class="row">
+
+<div class="col-lg-4">
+<ul class="footer-ul">
+<li><a class="footer-a" href="#">Post jobs</a></li>
+<li><a class="footer-a" href="#">Jobseekers</a></li>
+<li><a class="footer-a" href="#">C.V Builder</a></li>
+<li><a class="footer-a" href="#">Wage Calculator</a></li>
+<li><a class="footer-a" href="#">Recruitment Services</a></li>
+</ul>
+</div>
+
+<div class="col-lg-4">
+<ul class="footer-ul">
+<li><a class="footer-a" href="#">About Us</a></li>
+<li><img class="logo" src="logo.png"></li>
+</ul>
+</div>
+
+<div class="col-lg-4">
+<ul class="ul footer-ul">
+<li><a href="#" class="fab fa-facebook-f footer-a"></a> <a href="#" class=" footer-a fab fa-twitter"></a></li>
+<li><a class="footer-a" href="#"><i class="fas fa-phone-alt"></i> 21 356 879</a></li>
+<li><a class="footer-a" href="#"><i class="fas fa-envelope footer-a"></i>info@299.com.mt</a></li>
+<li><a class="footer-a" href="#">Contact Us</a></li>
+</ul>
+</div>
+</div>  <!-- row-->
+<div class="copyrightCont">
+<p class="copyright"><i class="far fa-copyright"></i>2019 299</p>
+<p class="copyright copyright-reserved">All rights reserved.</p></div>
+</div> <!-- footer content -->
+</footer>
+
+</html>

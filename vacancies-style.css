@@ -1,0 +1,99 @@
+body{
+  font-family:"Raleway", sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* title */
+
+.title{
+  margin-top:8rem;
+  text-align: center;
+  font-size:4rem;
+  text-decoration: underline;
+}
+
+/* content */
+
+.content-row{
+  margin: 2rem 0;
+}
+
+/* left filters col */
+
+.job-search-filters{
+  border:solid #191970;
+  border-width:0 2px 0 0;
+  font-weight:700;
+}
+
+.job-search-keywords{
+  margin:8rem 2rem 2rem 0;
+}
+
+.industry-filter{
+  margin:0 2rem 0 0;
+}
+
+.industry{
+  margin:0 2rem 0 0;
+}
+
+.job-type-filter{
+  margin:2rem 2rem 0.5rem 0;
+}
+
+ .job-type-filter-check{
+  margin:0 2rem 0 0;
+}
+
+.locality-filter{
+  margin: 2rem 2rem 0.2rem 0;
+}
+
+.locality-options{
+  margin:0 2rem 0 0;
+}
+
+.filters-submit-btn{
+  margin:2rem 2rem 2rem 0;
+}
+
+/* right vacancies col */
+
+.vacancy{
+  margin:2rem 0.5rem 3rem 0.5rem;
+  border:solid #000;
+  border-width:1px;
+  padding:0.5rem;
+}
+
+.v-location{
+margin:0 5rem 0 0.5rem;
+}
+
+.v-type{
+margin-left:5rem;
+}
+
+.read-more-btn{
+  margin-left:17rem;
+}
+
+
+@media screen and (max-width:1000px){
+.job-search-filters{
+  border:none;
+  }
+
+.content-row{
+  margin-top:0;
+}
+
+}
+
+@media screen and (max-width:460px){
+.read-more-btn{
+  margin-left:0;
+}
+}

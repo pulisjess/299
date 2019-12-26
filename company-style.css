@@ -1,0 +1,135 @@
+body{
+  font-family:"Raleway", sans-serif;
+  background-color:  #e9eefc;
+}
+
+hr{
+background-color:#a8106b;
+ border-radius:10px;
+ border-width: 3px;
+ width:50%;
+}
+
+
+/* boss img area */
+
+.boss-img-section{
+  background: black;
+  overflow: hidden;
+  padding:0;
+  position: relative;
+  z-index: 1;
+}
+
+.boss-img{
+  object-fit: cover;
+  opacity: 0.5;
+  width: 100%;
+  height:500px;
+}
+
+.boss-img-text{
+  display:inline-block;
+  position: absolute;
+  z-index: 2;
+  left:0;
+  bottom:15%;
+  color: #fff;
+  text-align: center;
+  width:100%;
+}
+
+.boss-img-text h1{
+  font-size:6rem;
+  font-weight:800;
+  color:#a8106b;
+}
+
+.boss-img-text h3{
+  font-size:4rem;
+  font-weight:800;
+  color:#a8106b;
+  padding-left: 5rem;
+}
+
+/* who we are table */
+
+.wwat-container{
+  margin-top:2rem;
+  margin-bottom:2rem;
+}
+
+.wwat-col{
+text-align: center;
+}
+
+.wwat-col h3{
+  font-size:2rem;
+  font-weight:800;
+  color:#191970;
+}
+
+.wwat-col p{
+  font-size:1.5rem;
+}
+
+/* questions area */
+
+.questions{
+  background-image: url(contact-img-hp.jpg);
+  background-size: cover;
+  padding: 5rem;
+  text-align: center;
+  margin-top:2rem;
+  margin-bottom: 4rem;
+  border-style:none;
+  box-shadow: -1px 36px 35px -14px rgba(0,0,0,0.86);
+}
+
+.darker-container{
+  background-color:rgba(0,0,0,0.8);
+  padding:1rem;
+  color:#fff;
+  font-weight:bold;
+  width:50%;
+  margin: 0 auto;
+}
+
+.darker-container h2{
+  color:#fff;
+}
+
+.darker-container h3{
+  color:#79c3d2;
+}
+
+.get-in-touch{
+  font-size:1.5rem;
+  background-color:transparent;
+  padding:0.5rem;
+  border: solid #79c3d2;
+  border-width:2px;
+  color:#79c3d2;
+}
+
+.get-in-touch:hover{
+  cursor:pointer;
+  transform: scale(1.1);
+}
+
+
+@media screen and (max-width:650px){
+
+.boss-img-text{
+  bottom:10rem;
+  left:0;
+}
+
+.boss-img-text h1{
+  font-size:2.5rem;
+}
+
+.boss-img-text h3{
+  font-size:1.5rem;
+}
+}

@@ -1,0 +1,244 @@
+body{
+  font-family:"Raleway", sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Ads section */
+
+
+.advertise{
+overflow: hidden;
+padding:0;
+position: relative;
+z-index: 1;
+}
+
+.ad-img{
+object-fit: cover;
+width: 100%;
+height:40rem;
+}
+
+.ad-content{
+  display:inline-block;
+  position: absolute;
+  padding: 3rem;
+  z-index: 2;
+  left: 0;
+  width:100%;
+  top:25%;
+  color: #fff;
+  text-align: center;
+  background-color:rgba(0, 0, 0, 0.8);
+}
+
+.advertise h1{
+font-weight: 800;
+font-size: 3rem;
+}
+
+.advertise p{
+font-size: 2rem;
+font-weight:400;
+}
+
+.ad-btn{
+padding:0 2rem;
+font-size:2rem;
+background-color:transparent;
+color:#fff;
+border-radius: 8px;
+margin: 1rem;
+}
+
+.ad-btn:hover{
+background-color: transparent;
+color:#fff;
+transform: scale(1.1);
+transition: 1s;
+}
+
+
+/* advantages */
+
+.advantages{
+  text-align: center;
+  margin-top:5rem;
+  margin-bottom:5rem;
+}
+
+.advantages h1{
+  color:#a8106b;
+  text-shadow: 5px 3px 4px #000000;
+  font-size:4rem;
+  font-weight: 800;
+}
+
+.advantages ul{
+  padding-left: 0px;
+}
+
+.advantages li{
+  list-style-type: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 0.1rem;
+}
+
+.advantages-info{
+background-color:transparent;
+border: solid #a8106b;
+border-width:2px;
+font-size:1.5rem;
+margin-top:1rem;
+}
+
+.advantages-info:hover{
+  transform: scale(1.1);
+}
+
+/* section */
+
+.employers-container{
+border: solid #191970;
+border-width: 2px;
+padding:2rem;
+margin-top: 2rem;
+}
+
+
+.employerstitle{
+  margin:0 0 2rem 0;
+  text-align: center;
+  color:#191970;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+.employerstxt{
+  font-size:1.5rem;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  line-height: 1.5;
+  margin:2rem;
+}
+
+/* what you will get */
+
+.what-you-will-get{
+  margin-top:5rem;
+  margin-bottom:5rem;
+  text-align: center;
+  font-size:1.5rem;
+  font-weight: bold;
+}
+
+.box-img{
+  width:100%;
+}
+
+/* section2 */
+
+.section-2{
+  margin:2rem auto;
+}
+
+.employers-section-2-col{
+  background: rgba(25, 25, 112, 0.6);
+  background: linear-gradient(rgba(168, 16, 107, 0.6),rgba(25, 25, 112, 0.6)), url("employers-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-2-txt{
+  font-size: 1.5rem;
+  color:#fff;
+  font-weight: 800;
+  padding:2rem 1rem;
+  text-align: center;
+}
+
+.employers-section2-col-2{
+  background: rgba(168, 16, 107, 0.6);
+  background: linear-gradient(rgba(168, 16, 107, 0.6),rgba(25, 25, 112, 0.6)), url("employers2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+ /* questions area */
+
+ .questions{
+   background-image: url(contact-img-hp.jpg);
+   background-size: cover;
+   padding: 5rem;
+   text-align: center;
+   margin-top:2rem;
+   margin-bottom: 4rem;
+   border-style:none;
+   box-shadow: -1px 36px 35px -14px rgba(0,0,0,0.86);
+ }
+
+ .darker-container{
+   background-color:rgba(0,0,0,0.8);
+   padding:1rem;
+   color:#fff;
+   font-weight:bold;
+   width:50%;
+   margin: 0 auto;
+ }
+
+ .darker-container h2{
+   color:#fff;
+ }
+
+ .darker-container h3{
+   color:#79c3d2;
+ }
+
+ .get-in-touch{
+   font-size:1.5rem;
+   background-color:transparent;
+   padding:0.5rem;
+   border: solid #79c3d2;
+   border-width:2px;
+   color:#79c3d2;
+ }
+
+ .get-in-touch:hover{
+   cursor:pointer;
+   transform: scale(1.1);
+ }
+
+
+ @media screen and (max-width:600px){
+
+.ad-content{
+  position: static;
+  background-color:#000;
+}
+
+.advantages h1{
+  font-size:2.5rem;
+}
+
+.advantages ul{
+  padding-left:0;
+}
+
+.advantages li{
+  font-size:1rem;
+}
+
+ }
+
+ @media screen and (max-width:1400px){
+   .darker-container{
+     width:100vw;
+   }
+
+   .questions{
+     padding:0;
+   }
+ }

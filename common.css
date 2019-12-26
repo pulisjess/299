@@ -1,0 +1,76 @@
+/* nav area */
+
+.navbar{
+  background-color:#3a3535;
+  position:fixed;
+  top:0;
+  z-index: 5;
+  width:100%;
+  padding: .5rem 1rem;
+}
+
+.dropdown-item{
+  z-index:5;
+}
+
+.navbar-brand{
+  margin-left: 1rem;
+  font-weight: 700;
+  font-family: "Raleway",ariel,sans-serif;
+}
+
+.nav-item{
+  border:solid #fff;
+  border-width: 0 2px 0 0;
+}
+
+.navbar-nav{
+  font-weight: bold;
+  margin-right:2rem;
+}
+
+.navbar-light .navbar-brand {
+  color: #464f6b;
+}
+
+/* footer0 */
+
+footer{
+background-color:#3a3535;
+}
+
+.footer-content{
+padding:3rem 0;
+text-align: center;
+font-size:1rem;
+font-weight: 300;
+}
+
+.logo{
+  width:130px;
+  height:80px;
+}
+
+.footer-ul{
+list-style-type: none;
+}
+
+.footer-a{
+color:#e9eefc;
+}
+
+.footer-a:hover{
+color:black;
+}
+
+.copyrightCont{
+  text-align: center;
+  font-size: 0.7rem;
+  margin-left: 2.5rem;
+}
+
+.copyright{
+opacity: 75%;
+color:#e9eefc;
+margin-bottom:0px;
+}
